@@ -1,0 +1,8 @@
+package day35._01_Final.classFinal;
+
+// class a final etiketi verdiğimizde ne oluyor
+public final class Tasit {
+    String model;
+
+
+}

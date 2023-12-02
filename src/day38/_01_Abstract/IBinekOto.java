@@ -1,0 +1,5 @@
+package day38._01_Abstract;
+
+public interface IBinekOto { // interface
+    int hizlanmaSuresi();
+}
