@@ -4,25 +4,25 @@ import java.util.Scanner;
 
 public class _01_IfElse {
     public static void main(String[] args) {
-        // Girilen bir öğrenci notuna göre 50 den büyük eşit ise geçtiniz.
-        // küçük ise kaldınız yazdırınız.
+        // If a student's grade entered is greater than or equal to 50, you have passed.
+        // print out if it is small.
 
         Scanner oku = new Scanner(System.in);
-        System.out.print("Notu giriniz=");
-        int ogrNot = oku.nextInt();
+        System.out.print("Enter the exam grade=");
+        int examGrade = oku.nextInt();
 
         // 1.yöntem bilgisayar boş yere yoruluyor
-        if (ogrNot >= 50)
-            System.out.println("Geçtiniz");
+        if (examGrade >= 50)
+            System.out.println("successful");
 
-        if (ogrNot < 50)
-            System.out.println("Kaldınız");
+        if (examGrade < 50)
+            System.out.println("unsuccessful");
 
         // 2.yöntem olması gereken
-        if (ogrNot >= 50)
-            System.out.println("Geçtiniz");
+        if (examGrade >= 50)
+            System.out.println("successful");
         else // !(ogrNot >= 50)  değilse
-            System.out.println("Kaldınız");
+            System.out.println("unsuccessful");
 
 
     }
