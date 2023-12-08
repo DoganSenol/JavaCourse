@@ -16,7 +16,7 @@ public class _08_Soru {
         int boslukIndex=adSoyad.indexOf(" ");
         char sayadIlkHarf= adSoyad.charAt(boslukIndex+1);
 
-        System.out.println(ilkHarf+"."+sayadIlkHarf+".");
+        System.out.println(ilkHarf+ "." + sayadIlkHarf + ".");
 
 
 
